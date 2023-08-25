@@ -4,8 +4,8 @@ void setup(){
 
 void draw(){
   
-  System.out.println(mouseX);
-  System.out.println(mouseY);   
+  //System.out.println(mouseX);
+  //System.out.println(mouseY);   
   
   //rotate(-PI/20);
   //ellipse(200,300,250,100);
