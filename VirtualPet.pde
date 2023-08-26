@@ -3,21 +3,21 @@ void setup(){
 }
 
 void draw(){
-  
   //System.out.println(mouseX);
-  //System.out.println(mouseY);   
-  
-  //rotate(-PI/20);
-  //ellipse(200,300,250,100);
-  //fill(color(204,204,204));
-  //rect(100,300,350,100);
-  
-  arc(150,400,200,100,PI,PI+PI);
-  arc(27,102,50,100,PI + 2*PI);
-  //triangle(27,400,102,357,102,400);
-  
+  //  System.out.println(mouseY);
+  noStroke();
+    
   //body
-  //ellipse(500,300,400,250);
+  rotate(radians(-5));
+  fill(color(212, 168, 72));
+  arc(400,500,500,230,PI,PI+PI);
+  arc(400,500,500,210,0,PI);
+  
+  //head 
+  //fill(color(168, 131, 50));
+  rotate(radians(-18));
+  arc(26,600,350,170,PI,PI+PI/2);
+  arc(26,600,350,20,PI/2,PI);
 }
 
-//body of the pangolin 
+  //body of the pangolin 
