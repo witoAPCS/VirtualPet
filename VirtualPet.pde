@@ -179,7 +179,12 @@ void right(){
   rotate(radians(10)); 
 }
 
-
+void mouseClicked(){
+  System.out.print(mouseX);
+  System.out.print(",");
+  System.out.print(mouseY);   
+  System.out.print(",");
+}
 
 void drawHexagon(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4, int x5, int y5, int x6, int y6){
     beginShape();
@@ -192,4 +197,18 @@ void drawHexagon(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4,
   //fail safe
   vertex(x1,y1);
   endShape();
+}
+
+  
+
+void cR(double amogus){
+  
+  int randomNumber1 = (int)Math.floor(Math.random() * (50 - 0 + 1) + 0);
+  
+  if(amogus > 0){
+    
+    fill(color(194 + randomNumber1, 153, 66));
+    
+  }
+   
 }
